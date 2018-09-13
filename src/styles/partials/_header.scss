@@ -1,0 +1,51 @@
+header{
+    background:url(./assets/background1.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+    margin: 20px;
+}
+
+.header-container_one{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    padding: 0;
+}
+.head-nav{
+    display: flex;
+    padding: none;  
+    list-style: none;
+    flex: 2 1 40%;
+    li{
+        margin: 0 10px;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.header-container_two{
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin: 0;
+        color: white;
+    }    
+}
+
+.header_p{
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: white;
+    }

@@ -1,0 +1,28 @@
+.skills{
+    margin: 20px;
+    padding:50px 0px;
+    background: #f2d2d8;
+}
+
+.skill-h2{
+    text-align: center;
+}
+
+.skills-ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skills-item{
+    width: 70%;
+   text-align: center;
+    i{
+        font-size: 3rem;
+    }
+}
+.firebase{
+    width: 30%;
+}

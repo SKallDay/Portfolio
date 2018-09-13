@@ -1,0 +1,39 @@
+.about-section{
+    margin: 20px;
+    height: 80vh;
+    padding-top: 50px;
+    background: #f2d2d8;
+    
+}
+
+.about-container{
+    display: flex;
+    padding: 20px;
+}
+
+.about-text{
+    width:70%;
+    padding: 0 15px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+}
+.about_p{
+       font-size: 1rem;
+       line-height: 1.5;
+}
+  
+   
+.about-img{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    border: 10px solid white;
+    padding: 20px;
+    img{
+        margin: 0 auto;
+    }
+}
