@@ -9,20 +9,24 @@
 }
 
 .skills-ul{
-    display: flex;
-    list-style: none;
     width: 60%;
+    display: grid;
+    list-style: none;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     margin: 0 auto;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .skills-item{
-    width: 70%;
-   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     i{
         font-size: 3rem;
+       margin: auto;
     }
 }
 .firebase{
     width: 30%;
+    margin: auto;
 }
+
