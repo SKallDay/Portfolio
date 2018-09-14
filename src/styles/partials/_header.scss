@@ -13,12 +13,14 @@ header{
 
 ul{
     padding: 0;
+
 }
 .head-nav{
     display: flex;
     padding: none;  
     list-style: none;
     flex: 2 1 40%;
+    display: none;
     li{
         margin: 0 10px;
         text-transform: uppercase;
@@ -36,16 +38,27 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    h1{
+    .header-h1{
         font-size: 4rem;
         text-transform: uppercase;
         margin: 0;
         color: white;
+        font-family: $font1;
     }    
 }
 
-.header_p{
+.header-p{
         font-size: 1rem;
         text-transform: uppercase;
         color: white;
+        font-family: $font2;
     }
+
+.ham-menu{
+    position: fixed;
+    top:10%;
+    right:5%;
+    font-size: 2rem;
+    background: none;
+    border:none;
+}

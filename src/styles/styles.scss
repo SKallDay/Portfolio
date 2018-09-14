@@ -4,6 +4,9 @@ body {
 
 $pink: #f2d2d8;
 
+$font1: 'Raleway', sans-serif;
+$font2: 'Noto Serif KR', sans-serif;
+
 
 @import 'partials/setup';
 @import 'partials/layout';
@@ -12,4 +15,5 @@ $pink: #f2d2d8;
 @import 'partials/portfolio';
 @import 'partials/skills';
 @import 'partials/contact';
+@import 'partials/footer';
 

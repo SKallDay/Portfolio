@@ -48,6 +48,7 @@
 h4{
     font-size: 2rem;
     margin: 10px 0px;
+    font-family: $font2;
 }
 
 .work-p{
@@ -58,7 +59,8 @@ h4{
     flex-direction: row-reverse;
 }
 
-.live-button{
+.live-button,
+.submit{
     text-decoration: none;
     padding: 10px;
     margin: 5px;
