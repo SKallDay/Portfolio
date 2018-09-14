@@ -213,21 +213,24 @@
         <div class="wrapper">
             <div class="contact-container">
                 <div class="contact-text">
-                    <h3>Contact</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, exercitationem.</p>
+                    <h2 class="contact-h2">Contact</h2>
+                    <p class="contact-p">Shoot me a message, about my work, possible oppurtunites or if you just wanna talk about Game of thrones fan therories</p>
                 </div>
-                <form action="">
-                    <label for="name">Name</label>
-                    <input type="text" placeholder="Name" id="name">
-                    
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="Email">
+                <form action="sendtoEmail">
+                    <div class="form-container">
+                        <label class="visuallyhidden" for="name">Name</label>
+                        <input  class="text" type="text" placeholder="Name" id="name">
+                        
+                        <label class="visuallyhidden" for="email">Email</label>
+                        <input class="text" type="text" name="email" id="email" placeholder="Email">
 
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <label class="visuallyhidden" for="subject">Subject</label>
+                        <input class="text" type="text" name="subject" id="subject" placeholder="Subject">
+                    </div>
 
-                    <label for="text-field">Text Field</label>
-                    <input type="text" name="text-field" id="text-field" placeholder="Type your Message Here">
+                    <label class="visuallyhidden" for="text-field">Text Field</label>
+                    <textarea class="text-field" rows="4" cols="50" placeholder="Type your Message Here">></textarea>
+                    <!-- <input class="text-field" type="text-area" name="text-field" id="text-field" placeholder="Type your Message Here"> -->
                 </form>
             </div>
         </div>
@@ -239,7 +242,7 @@
             <div class="footer-container">
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </footer>
