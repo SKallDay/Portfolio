@@ -7,7 +7,7 @@
     }
 
     h2,
-    .header-h1{
+    .header-container_two .header-h1{
         font-size: 2rem;
     }
 
@@ -23,6 +23,7 @@
 
     .portfolio{
         margin: 0;
+        padding: 0;
     }
 
     .work-container_one, .work-container_two, .work-container_three, .work-container_four{
@@ -58,5 +59,49 @@
 
     .submit{
         width: 100%;
+    }
+}
+
+
+@media (max-width:320px){
+    .wrapper{
+        width: 300px;
+    }
+
+    header{
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-section{
+        margin: 8px;
+        height: auto;
+    }
+
+    .about_p{
+        font-size: .8rem;
+    }
+
+    .about-img{
+        display: none;
+    }
+
+
+    .work-text{
+        width: 95%;
+    }
+
+
+    .contact{
+        margin: 0;
+    }
+
+    .contact-container{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    footer{
+        margin: 8px;
     }
 }
