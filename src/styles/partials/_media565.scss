@@ -1,0 +1,60 @@
+@media (max-width:565px){
+    .wrapper{
+        width: 430px;
+    }
+
+    .about-section{
+        height: 100vh;
+    }
+
+    .about-img{
+        width: 62%;
+    }
+
+    .about_p{
+        font-size: .9rem;
+        padding: 0 27px;
+        text-align: center;
+    }
+
+
+
+    .work-text ul{
+        display: none;
+    }
+    .app-descr{
+        margin: 25px 0px; 
+    }
+    
+    .contact-h2{
+        margin: 20px;
+    }
+
+    .contact-p{
+        margin: 20px auto;
+    }
+
+    form{
+        flex-direction: column;
+    
+    }
+
+    .form-container{
+        flex-direction: row;
+        margin: 0px;
+    }
+
+    .text{
+     margin: 15px 5px;
+     width: calc(84% - 10px);
+     
+    }
+    .text-field{
+        margin: 3px;
+        width: auto;
+    }
+
+    .submit{
+        width: 30%;
+    }
+}

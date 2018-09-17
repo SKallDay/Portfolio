@@ -1,0 +1,19 @@
+@media (max-width:950px){
+
+.wrapper{
+    width: 800px;
+}
+
+nav{
+    width: 80%;
+}
+
+.work-container_one, .work-container_two, .work-container_three, .work-container_four{
+    flex-direction: column;
+}
+
+.work-text{
+    width: auto;
+}
+
+}

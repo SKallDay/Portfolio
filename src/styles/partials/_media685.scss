@@ -1,0 +1,23 @@
+@media(max-width:685px){
+    .wrapper{
+        width:500px;
+    }
+
+    .work-text{
+        text-align: center;
+    }
+
+    .work-text ul li{
+        font-size: .8rem;
+        width: calc(30% - 10px);
+    }
+
+    .reverse-ul{
+        flex-direction: row;
+    }
+
+    .firebase{
+        width: 20%;
+    }
+
+}

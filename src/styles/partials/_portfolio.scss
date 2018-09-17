@@ -12,7 +12,7 @@
     border: 10px solid white;
     margin: 40px 20px;
     display: flex;
-    padding: 20px 10px;
+    padding: 40px 10px;
 }
 
 .work-container_one,
@@ -23,6 +23,15 @@
 .work-container_two,
 .work-container_four{
     flex-direction: row-reverse;
+}
+
+// .work-container_two,{
+//     padding-top: 60px;
+// }
+
+.work-one-img,
+.work-three-img{
+    margin-top: 40px;
 }
 
 .work-text{
