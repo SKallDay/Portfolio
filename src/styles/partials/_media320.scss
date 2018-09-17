@@ -1,0 +1,62 @@
+@media(max-width:375px){
+    .wrapper{
+        width: 265px;
+    }
+    .head-nav li{
+        display: block;
+    }
+
+    h2,
+    .header-h1{
+        font-size: 2rem;
+    }
+
+    .about_p{
+        padding: 0;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .portfolio{
+        margin: 0;
+    }
+
+    .work-container_one, .work-container_two, .work-container_three, .work-container_four{
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .work-text{
+        margin: 0;
+    }
+
+    .skills{
+        display: none;
+    }
+
+    .contact-p{
+        width: auto;
+    }
+
+    .form-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .text-field{
+        width:100%;
+    }
+
+    .submit{
+        width: 100%;
+    }
+}

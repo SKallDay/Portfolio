@@ -24,6 +24,7 @@ form{
     width: 60%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 .form-container{
     display: flex;
@@ -43,7 +44,7 @@ input{
 
 .text-field{
     margin: 25px;
-    width: 60%;
+    width:calc(55% - 50px);
     border: none;
     padding: 10px;
     resize: none;
@@ -55,4 +56,5 @@ input::placeholder{
 
 .submit{
     width: 20%;
+    margin: 0 auto;
 }

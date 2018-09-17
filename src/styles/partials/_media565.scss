@@ -7,14 +7,21 @@
         height: 100vh;
     }
 
+    .about-img img{
+        border-radius: 14%;
+    }
+
     .about-img{
-        width: 62%;
+        width: 55%;
+        padding: 5px;
+        border: none;
     }
 
     .about_p{
         font-size: .9rem;
         padding: 0 27px;
         text-align: center;
+        line-height: 1.6;
     }
 
 
@@ -32,6 +39,10 @@
 
     .contact-p{
         margin: 20px auto;
+    }
+
+    .skills-ul{
+        width: 74%;
     }
 
     form{
@@ -56,5 +67,6 @@
 
     .submit{
         width: 30%;
+        margin: 18px auto;
     }
 }
