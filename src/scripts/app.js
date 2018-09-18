@@ -1,4 +1,7 @@
 $(function () {
+    AOS.init();
+
+
     $("a").smoothScroll({ speed: 2000 });
 
     $('.ham-menu').click(function(){

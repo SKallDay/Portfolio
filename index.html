@@ -9,6 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,500|Raleway" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="./public/styles/assets/SK.png">
     <title>Shai Codes</title>
 </head>
@@ -50,7 +51,7 @@
     </header>
 
     <!-- ABOUT SECTION -->
-    <section class="about-section" id="about">
+    <section class="about-section" id="about" data-aos="fade-up">
         <div class="wrapper">
             <div class="about-container">
                 <div class="about-text">
@@ -78,7 +79,7 @@
     <section class="portfolio" id="work">
         <div class="wrapper">
             <!-- WORK ONE -->
-            <div class="work-container_one">
+            <div class="work-container_one" data-aos="fade-up">
                 <div class="work-text">
                    <h4>ODE</h4>
                    <p class="work-p">React,Firebase & DataMuse API application</p>
@@ -102,7 +103,7 @@
                  </div>
             </div>
             <!-- WORK TWO -->
-            <div class="work-container_two">
+            <div class="work-container_two" data-aos="fade-up">
                 <div class="work-text">
                     <h4>Ready2pack App</h4>
                     <p class="work-p">React & Firebase</p>
@@ -123,7 +124,7 @@
                 </div>
             </div>
             <!-- WORK THREE -->
-            <div class="work-container_three">
+            <div class="work-container_three" data-aos="fade-up">
                 <div class="work-text">
                     <h4>UpLifted</h4>
                     <p class="work-p">Javascript, Jquery & Stain API</p>
@@ -148,7 +149,7 @@
             </div>
 
             <!-- WORK FOUR -->
-            <div class="work-container_four">
+            <div class="work-container_four" data-aos="fade-up">
                 <div class="work-text">
                    <h4>PDS conversion</h4>
                    <p class="app-descr">pixel perfect translation of a PSD design into a fully responsive site</p>
@@ -172,7 +173,7 @@
     <section class="skills" id="skills">
         <div class="wrapper">
             <h2 class="skill-h2">Skills</h2>
-            <div class="skills-container">
+            <div class="skills-container" data-aos="fade-up">
                 <ul class="skills-ul">
                  <li class="skills-item">
                     <i class="fab fa-html5"></i>
@@ -222,7 +223,7 @@
     <!-- CONTACT SECTION -->
      <section class="contact" id="contact">
         <div class="wrapper">
-            <div class="contact-container">
+            <div class="contact-container" data-aos="fade-up">
                 <div class="contact-text">
                     <h2 class="contact-h2">Contact</h2>
                     <p class="contact-p">Shoot me a message, about my work, possible oppurtunites or if you just wanna talk about Game of thrones fan therories</p>
@@ -263,20 +264,9 @@
     <script 
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="public/scripts/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </body>
 </html>
-<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
-<script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyBtcl85VpdJ1pP6cLY6UH1LaRmJftHAW8c",
-        authDomain: "uplifted-68110.firebaseapp.com",
-        databaseURL: "https://uplifted-68110.firebaseio.com",
-        projectId: "uplifted-68110",
-        storageBucket: "uplifted-68110.appspot.com",
-        messagingSenderId: "772165753804"
-    };
-    firebase.initializeApp(config);
-</script>
+
