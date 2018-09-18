@@ -16,8 +16,6 @@ $(function () {
 const typed = new Typed('.header-p', {
     strings: ['Front End Web Developer'],
     typeSpeed: 60,
-    loop: true,
-    loopCount: 4,
     showCursor:false,
 
 });
